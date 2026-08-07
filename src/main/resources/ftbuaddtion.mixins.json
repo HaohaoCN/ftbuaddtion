@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.hh.ftbuaddtion.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "ftbuaddtion.refmap.json",
+  "mixins": [
+    "FTBUltimineMixin",
+    "FTBUltimineBlockBrokenMixin",
+    "ItemCollectionAccessor"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
