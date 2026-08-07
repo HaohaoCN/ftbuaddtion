@@ -101,11 +101,11 @@ dependencies {
     //   - ftb-ultimine-forge-${ftb_ultimine_version}.jar
     //   - ftb-library-forge-2001.2.13.jar
     //   - architectury-forge-9.0.8.jar
-    compileOnly fg.deobf("dev.ftb.mods:ftb-ultimine-forge:${ftb_ultimine_version}")
-    compileOnly fg.deobf("dev.ftb.mods:ftb-library-forge:2001.2.13")
+    implementation fg.deobf("dev.ftb.mods:ftb-ultimine-forge:${ftb_ultimine_version}")
+    implementation fg.deobf("dev.ftb.mods:ftb-library-forge:2001.2.13")
 
     // Architectury - 编译时引用 API
-    compileOnly fg.deobf("dev.architectury:architectury-forge:9.0.8")
+    implementation fg.deobf("dev.architectury:architectury-forge:9.2.14")
 }
 
 tasks.named('processResources', ProcessResources).configure {
